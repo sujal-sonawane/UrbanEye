@@ -1,0 +1,25 @@
+# Environment and Credentials
+.env
+*.env
+.env.*
+backend/.env
+backend/*.env
+
+# Dependencies
+node_modules/
+backend/.venv/
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
